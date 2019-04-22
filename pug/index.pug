@@ -1,0 +1,106 @@
+extends _inc
+
+block article
+  section.construction
+    .container
+      .title-page
+        h1
+          a công trình đã thực hiện
+
+      .construction-zone
+        .button-group.filter-button-group
+          button.active(data-filter="*") ALL
+          button(data-filter=".kitchen") Phòng bếp
+          button(data-filter=".bedroom") Phòng ngủ
+          button(data-filter=".office") Văn phòng làm việc
+          
+        .grid
+          .element-item.kitchen
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/reserve/eNu5TtyHRnWf9627TvZN_IMG_7791.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                  h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                  h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/reserve/eNu5TtyHRnWf9627TvZN_IMG_7791.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=500&q=60")
+               
+          .element-item.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzMDA0fQ&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzMDA0fQ&auto=format&fit=crop&w=500&q=60")
+                
+          .element-item.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+                
+          .element-item.kitchen.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1507768738058-c38687b47c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+                
+          .element-item.kitchen.office
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1469536526925-9b5547cd5d68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+                
+          .element-item.kitchen.office.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1415433211528-855296360906?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+          
+          .element-item.kitchen.office.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1415433211528-855296360906?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+          
+          .element-item.kitchen.office.bedroom
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1415433211528-855296360906?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+          
+          .element-item.kitchen
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1462173164885-f6d3c7a6c647?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+                
+          .element-item.office
+            a(href='chi-tiet-cong-trinh.html')
+              img(src='https://images.unsplash.com/photo-1496482475496-a91f31e0386c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')
+              span
+                .element-item-detail
+                    h5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis.
+                    h6 Số 10, Phường Bến Nghé, Quận 1
+                i.mdi.mdi-image-search-outline(title="Nhấn để phóng to ảnh" data-caption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, corporis." data-fancybox="gallery" href="https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
